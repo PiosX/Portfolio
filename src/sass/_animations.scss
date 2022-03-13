@@ -1,0 +1,213 @@
+@keyframes sun-rising {
+	0% {
+		transform: translate(-50%, 100%);
+		background-color: rgb(238, 168, 17);
+		box-shadow: 0 0 0 0 rgb(238, 168, 17);
+	}
+	20% {
+		transform: translate(-50%, 100%);
+		background-color: rgb(238, 168, 17);
+		box-shadow: 0 0 0 0 rgb(238, 168, 17);
+	}
+	80% {
+		transform: translate(-50%, -250%);
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0 0 40px 20px rgb(255, 255, 255);
+	}
+	100% {
+		transform: translate(-50%, -250%);
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0 0 40px 20px rgb(255, 255, 255);
+	}
+}
+
+@keyframes moon-rising {
+	0% {
+		transform: translate(-50%, 0%);
+	}
+	20% {
+		transform: translate(-50%, 0%);
+	}
+	80% {
+		transform: translate(-50%, -350%);
+	}
+	100% {
+		transform: translate(-50%, -350%);
+	}
+}
+
+@keyframes rising-stars {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes change-background {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0.7;
+	}
+	80% {
+		opacity: 0.9;
+	}
+	100% {
+		opacity: 0.9;
+	}
+}
+
+@keyframes night-colors {
+	0% {
+		filter: grayscale(0);
+	}
+	20% {
+		filter: grayscale(0);
+	}
+	80% {
+		filter: grayscale(100%);
+	}
+	100% {
+		filter: grayscale(100%);
+	}
+}
+
+@keyframes fly-cycle {
+	100% {
+		background-position: -900px 0;
+	}
+}
+
+@keyframes fly-right-one {
+	0% {
+		transform: scale(0.3) translateX(-10vw);
+	}
+
+	10% {
+		transform: translateY(2vh) translateX(10vw) scale(0.4);
+	}
+
+	20% {
+		transform: translateY(0vh) translateX(30vw) scale(0.5);
+	}
+
+	30% {
+		transform: translateY(4vh) translateX(50vw) scale(0.6);
+	}
+
+	40% {
+		transform: translateY(2vh) translateX(70vw) scale(0.6);
+	}
+
+	50% {
+		transform: translateY(0vh) translateX(90vw) scale(0.6);
+	}
+
+	60% {
+		transform: translateY(0vh) translateX(110vw) scale(0.6);
+	}
+
+	100% {
+		transform: translateY(0vh) translateX(110vw) scale(0.6);
+	}
+}
+
+@keyframes fly-right-two {
+	0% {
+		transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+	}
+
+	10% {
+		transform: translateY(0vh) translateX(10vw) scale(0.4);
+	}
+
+	20% {
+		transform: translateY(-4vh) translateX(30vw) scale(0.6);
+	}
+
+	30% {
+		transform: translateY(1vh) translateX(50vw) scale(0.45);
+	}
+
+	40% {
+		transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
+	}
+
+	50% {
+		transform: translateY(0vh) translateX(90vw) scale(0.45);
+	}
+
+	51% {
+		transform: translateY(0vh) translateX(110vw) scale(0.45);
+	}
+
+	100% {
+		transform: translateY(0vh) translateX(110vw) scale(0.45);
+	}
+}
+
+@keyframes growing-image {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes text-moving {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes show-places {
+	0% {
+		transform: scale(0) translate(-50%, -50%);
+	}
+	100% {
+		transform: scale(1) translate(-50%, -50%);
+	}
+}
+
+@keyframes title-text-anim {
+	0% {
+		transform: translateX(-1000px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes title-text-b-anim {
+	0% {
+		transform: translateY(-1000px) rotate(90deg);
+	}
+	100% {
+		transform: translateY(0) rotate(90deg);
+	}
+}
+
+@keyframes navigation-anim {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 25%;
+	}
+}

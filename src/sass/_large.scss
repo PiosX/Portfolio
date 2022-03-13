@@ -1,0 +1,42 @@
+@media (min-width: 992px) {
+	.nav {
+		.mobile {
+			display: none;
+		}
+		.desktop {
+			display: block;
+		}
+	}
+	.t-section {
+		&__heading {
+			font-size: 20rem;
+		}
+	}
+	.under-section {
+		&__box {
+			flex-direction: row;
+		}
+
+		&__box:nth-child(odd) {
+			justify-content: flex-end;
+		}
+		&__box-info:nth-child(2) {
+			width: 55%;
+		}
+	}
+	.title-section {
+		&__box {
+			&-text {
+				font-size: 15rem;
+				&--fourth {
+					font-size: 12rem;
+				}
+			}
+		}
+	}
+	.footer__content-authors {
+		.author {
+			font-size: 2.8rem;
+		}
+	}
+}
